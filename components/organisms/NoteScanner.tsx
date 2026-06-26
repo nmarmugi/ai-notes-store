@@ -82,7 +82,6 @@ export default function NoteScanner({ workspaceId }: INoteScanner) {
                 ref={inputRef}
                 type="file"
                 accept="image/*"
-                capture="environment"
                 hidden
                 onChange={handleFile}
             />
